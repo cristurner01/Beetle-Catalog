@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import _ from 'lodash'
 import './App.css'
-import BeetleJournal from './images/BeetleJournal.png';
 
 function App() {
   const [allBeetles, setAllBeetles] = useState([]);
@@ -148,7 +147,7 @@ function App() {
   return (
     <div className='bigFatBox'>
       <h1>Beetle Catching Catalog</h1>
-      <div className='beetle-journal' style={{ backgroundImage: `url(${BeetleJournal})`}}>
+      <div className='beetle-journal' style={{ backgroundImage: "url(/images/BeetleJournal.png)"}}>
          
         <div className='left-page'>
           <div className='row my-4' id='searchBeetles'>
