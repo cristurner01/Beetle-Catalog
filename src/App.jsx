@@ -147,7 +147,7 @@ function App() {
   return (
     <div className='bigFatBox'>
       <h1>Beetle Catching Catalog</h1>
-      <div className='beetle-journal' style={{ backgroundImage: "url(./beetle-catalog/public/images/BeetleJournal.png)"}}>
+      <div className='beetle-journal'>
          
         <div className='left-page'>
           <div className='row my-4' id='searchBeetles'>
